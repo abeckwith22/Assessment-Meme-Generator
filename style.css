@@ -1,0 +1,77 @@
+body{
+    background-color: #171926;
+}
+
+h1 {
+    color: white;
+}
+
+#form-div {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+}
+
+#form-div button {
+    margin-left: 35px;
+    background-color: rgb(139, 139, 255);
+    color: white;
+}
+
+#meme-list { /* meme font */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+}
+
+.meme {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    border: 2px solid #C0C5C1;
+    border-radius: 10px;
+}
+
+.meme-image {
+    border: 1px solid #C0C5C1;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 90%;
+}
+
+.top-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    color: #000;
+    font-size: 2em;
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    color: #000;
+    font-size: 2em;
+}
+
+.remove-button{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2em;
+    bottom:0;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    background-color:red; 
+    color: #EAF0CE;
+}

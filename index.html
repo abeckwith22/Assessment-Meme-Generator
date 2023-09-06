@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200;400;500&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <div id="form-div">
+      <form id="meme-submit">
+        <input type="text" class="input" id="top" placeholder="Top Text" required />
+        <input type="text" class="input" id="bottom" placeholder="Bottom Text" required /> 
+        <input
+          type="text"
+          class="input"
+          id="image"
+          placeholder="Image URL"
+          required
+        />
+        <button type="submit" class="input">Submit</button>
+      </form>
+    </div>
+    <div id="meme-list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
